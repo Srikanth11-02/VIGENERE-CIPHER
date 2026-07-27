@@ -73,9 +73,8 @@ void decrypt(char* ciphertext, char* key, char* plaintext) {
         } 
     } 
  
-    plaintext[textLen] = '\0'; 
-} 
- 
+    plaintext[textLen] = '\0'; }
+```
 int main() { 
     char plaintext[1024]; 
     char key[1024]; 
@@ -93,6 +92,7 @@ decrypt(ciphertext, key, decrypted);
 printf("Decrypted text: %s\n", decrypted); 
 return 0; 
 }
+```
 ## OUTPUT
 <img width="670" height="422" alt="image" src="https://github.com/user-attachments/assets/d6f5128d-176f-41e4-938a-a0348afb27b0" />
 
